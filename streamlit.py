@@ -3,7 +3,7 @@ import pickle
 import json
 
 # Load the trained model
-pickle_in = open('banglore_home_prices_model.pickle', 'rb')
+pickle_in = open('Real_Estate_Price_Prediction.pickle', 'rb')
 model = pickle.load(pickle_in)
 
 # Load the JSON file
