@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import json
-import sklearn
+
 # Load the trained model
 pickle_in = open('Real_Estate_Price_Prediction.pickle', 'rb')
 model = pickle.load(pickle_in)
