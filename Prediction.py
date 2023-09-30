@@ -31,7 +31,8 @@ def main():
     st.title("Bangalore Home Price Prediction")
 
     # Create input fields for Area, BHK, Bedroom, and Location
-    area = st.number_input("Area (in sqft)", min_value=50)
+    st.markdown('### Area (in Sqft)')
+    area = st.number_input(min_value=50)
     bhk = st.radio("BHK", options=[1, 2, 3, 4, 5])
     bedroom = st.radio("Bedroom", options=[1, 2, 3, 4, 5])
     select_location = st.selectbox("Select the Location", Location)
