@@ -32,7 +32,7 @@ def main():
 
     # Create input fields for Area, BHK, Bedroom, and Location
     st.markdown('### Area (in Sqft)')
-    area = st.number_input(min_value=50)
+    area = st.number_input('Type Here',min_value=50)
     bhk = st.radio("BHK", options=[1, 2, 3, 4, 5])
     bedroom = st.radio("Bedroom", options=[1, 2, 3, 4, 5])
     select_location = st.selectbox("Select the Location", Location)
