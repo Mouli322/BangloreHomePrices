@@ -4,7 +4,7 @@ import json
 import pandas as pd
 import numpy as np
 # Load the trained model
-model = pickle.load(open('Real_Estate_Price_Prediction','rb'))
+model = pickle.load(open('Real_Estate_Price_Prediction.pickle','rb'))
 
 # Load the JSON file
 with open('columns.json', 'r') as json_file:
