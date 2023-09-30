@@ -6,6 +6,18 @@ import numpy as np
 # Load the trained model
 model = pickle.load(open('Real_Estate_Price_Prediction.pickle','rb'))
 
+st.markdown(
+    """
+    <style>
+    body {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBdhXbYp2Lu8G3UNNDxcROF5V75fYrlolRlQ&usqp=CAU');
+        background-size: cover;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Load the JSON file
 with open('columns.json', 'r') as json_file:
     data = json.load(json_file)['data_columns']
