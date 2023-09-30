@@ -10,7 +10,7 @@ st.markdown(
     """
     <style>
     body {
-        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBdhXbYp2Lu8G3UNNDxcROF5V75fYrlolRlQ&usqp=CAU');
+        background-image: url('bhp_image.png');
         background-size: cover;
     }
     </style>
